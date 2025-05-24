@@ -1,0 +1,12 @@
+
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+.git
+.gitignore
+*.env
+# If you have a local dist folder from testing, ignore it too
+# as the Dockerfile build stage will create its own.
+dist
+README.md

@@ -1,0 +1,23 @@
+{
+  "name": "ai-image-generator-frontend",
+  "version": "1.0.0",
+  "description": "Frontend for AI Image Generator with a simple Node.js server for Cloud Run.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "vite",
+    "build": "tsc && vite build"
+  },
+  "dependencies": {
+    "@google/genai": "^1.0.1",
+    "@supabase/supabase-js": "^2.49.8",
+    "dotenv": "^16.5.0",
+    "express": "^4.21.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "devDependencies": {
+    "vite": "^6.3.5"
+  }
+}
